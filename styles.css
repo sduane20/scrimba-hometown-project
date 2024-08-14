@@ -1,0 +1,199 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-shadow {
+    box-shadow: -.5em -.5em .4em black;
+}
+
+.div-hidden {
+    display: hidden;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+img {
+    border-radius: 20px;
+}
+
+body {
+    background: #F1FAEE;
+}
+
+#hero-section {
+    background: #E63946;
+    color: white;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#hero-img {
+    background-image: url("/images/yall_tower.jpg");
+    height: 120px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1rem auto;
+    border-radius: 20px;
+}
+
+#hero-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem .5rem;
+}
+
+#hero-title {
+    background: #1D3557;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+#hero-subTitle {
+    background: #457B9D;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+#activities-section {
+    text-align: center;
+}
+
+#activities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    gap: 2.5rem;
+}
+
+#activity-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1D3557;
+    color: white;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#activity-1 img {
+    width: 300px;
+    padding: .4rem;
+    border-radius: 20px;
+}
+
+#activity-2 {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1D3557;
+    color: white;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#activity-2 img {
+    width: 300px;
+    padding: .4rem;
+}
+
+#activity-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1D3557;
+    color: white;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#activity-3 img {
+    width: 275px;
+    padding: .4rem;
+}
+#guide-section {
+    text-align: center;
+}
+
+#guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    gap: 2.5rem;
+}
+
+#guide-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1D3557;
+    color: white;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+
+#guide h3 {
+    margin: 1rem;
+    text-align: center;
+}
+#guide p {
+    text-align: center;
+}
+
+#guide-img {
+    background-image: url("/images/profile_picture.png");
+    width: 800px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1rem auto;
+    border-radius: 20px;
+}
+
+
+
+#visual-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    #activities {
+        flex-direction: column;
+    }
+}
+
+
+

@@ -41,7 +41,7 @@ body {
 }
 
 #hero-img {
-    background-image: url("/images/yall_tower.jpg");
+    background-image: url("../images/yall_tower.jpg");
     height: 120px;
     width: 120px;
     background-repeat: no-repeat;
@@ -168,7 +168,7 @@ body {
 }
 
 #guide-img {
-    background-image: url("/images/profile_picture.png");
+    background-image: url("../images/profile_picture.png");
     width: 800px;
     height: 200px;
     background-repeat: no-repeat;

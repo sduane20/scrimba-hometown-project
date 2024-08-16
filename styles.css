@@ -100,10 +100,6 @@ body {
     border-radius: 20px;
 }
 
-.mobile-hover:hover, .mobile-hover:active {
-    scale: 1.5;
-}
-
 #activity-2 {
      display: flex;
     justify-content: center;
@@ -195,6 +191,13 @@ body {
         flex-direction: column;
     }
 }
+
+@media (hover:hover) and (pointer: coarse) {
+    .mobile-hover:hover, .mobile-hover:active {
+    scale: 1.5;
+    }
+}
+    
 
 
 
